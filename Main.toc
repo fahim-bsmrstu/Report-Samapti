@@ -11,7 +11,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Organization of the Thesis}{1}
 \contentsline {chapter}{\numberline {2}Related Works}{2}
-\contentsline {chapter}{\numberline {3}Supergraph Based Periodic Behaviors Mining (SPBMiner)}{3}
+\contentsline {chapter}{\numberline {3}Sample}{3}
 \contentsline {chapter}{\numberline {4}Experimental Evaluation}{4}
 \contentsline {chapter}{\numberline {5}Conclusions and Future Work}{5}
 \fakechapter 

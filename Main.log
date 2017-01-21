@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=latex 2016.12.20)  21 JAN 2017 15:45
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100 64-bit) (preloaded format=xelatex 2017.1.5)  21 JAN 2017 16:14
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -40,10 +40,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 99.
+Package graphics Info: Driver file: xetex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\dvips.def"
-File: dvips.def 2016/07/10 v3.1a Driver-dependent file (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\xetex.def"
+File: xetex.def 2016/07/11 v4.10 LaTeX color/graphics driver for XeTeX (L3/RRM/JK)
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -81,7 +81,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen114
 \Gm@dimlist=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\xelatex\xetexconfig\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \fancy@headwidth=\skip46
@@ -103,11 +103,8 @@ Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: dvips.def on input line 147.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
-File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-))
+Package color Info: Driver file: xetex.def on input line 147.
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latexsym.sty"
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
@@ -161,6 +158,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LT@p@ftn=\toks16
 ) (comment.sty Excluding comment 'comment')
 ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
@@ -185,8 +183,14 @@ File: ot1enc.def 2016/06/19 v1.99m Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding OT1 on input line 48.
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty"
+Invalid UTF-8 byte or sequence at line 275 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 290 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 540 replaced by U+FFFD.
 Package: algorithm2e 2013/01/06 v5.00 algorithms environments
 \c@AlgoLine=\count106
+Invalid UTF-8 byte or sequence at line 1311 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1313 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1315 replaced by U+FFFD.
 \algocf@hangindent=\skip69
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
@@ -317,31 +321,28 @@ Package: titletoc 2011/12/15 v1.6 TOC entries
 \c@theorem=\count127
 \c@lemma=\count128
  (Main.aux (Cover.aux) (InnerCover.aux) (TitlePage.aux)
-(approval.aux) (Dedication.aux) (Abstract.aux) (Acknowledgment.aux) (Chapter1.aux) (Chapter2.aux) (Chapter3.aux
-
-LaTeX Warning: Label `def:dynamicnetworks' multiply defined.
-
-) (Chapter4.aux) (Ch-Conclusions.aux) (Publications.aux))
+(approval.aux) (Dedication.aux) (Abstract.aux) (Acknowledgment.aux) (Chapter1.aux) (Chapter2.aux) (Chapter3.aux)
+(Chapter4.aux) (Ch-Conclusions.aux))
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 101.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 101.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 113.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 113.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    ... okay on input line 113.
 
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -439,7 +440,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ])
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 118.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 130.
 
 \openout2 = `Abstract.aux'.
 
@@ -456,43 +457,36 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 
 
 
-] (Main.toc [3
-
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4])
+] (Main.toc)
 \tf@toc=\write3
 \openout3 = `Main.toc'.
 
- [5] (Main.lof [6
+ [3
 
 
-])
+] (Main.lof)
 \tf@lof=\write4
 \openout4 = `Main.lof'.
 
- [7] (Main.lot)
+ [4
+
+
+] (Main.lot)
 \tf@lot=\write5
 \openout5 = `Main.lot'.
 
- [8
+ [5
 
 
 ] (Main.loa)
 \tf@loa=\write6
 \openout6 = `Main.loa'.
 
- [9
+ [6
 
 ]
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 164.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 176.
 
 \openout2 = `Chapter1.aux'.
 
@@ -504,21 +498,11 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¢ in font cmr10!
+Missing character: There is no â€¢ in font cmr10!
+Missing character: There is no â€¢ in font cmr10!
+Missing character: There is no â€¢ in font cmr10!
+Missing character: There is no â€¢ in font cmr10!
+Missing character: There is no â€¢ in font cmr10!
 ) [1
 
 
@@ -561,32 +545,32 @@ Chapter 5.
 
 ]
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 179.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 191.
 
-(Main.bbl [6
+(Main.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 24.
+
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 202.
+
+[6
 
 
-] [7] [8] [9])
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 190.
-
-[10] (Main.aux (Cover.aux) (InnerCover.aux) (TitlePage.aux) (approval.aux) (Dedication.aux) (Abstract.aux)
-(Acknowledgment.aux) (Chapter1.aux) (Chapter2.aux) (Chapter3.aux) (Chapter4.aux) (Ch-Conclusions.aux))
-
-LaTeX Warning: There were multiply-defined labels.
-
- )
+] (Main.aux (Cover.aux) (InnerCover.aux) (TitlePage.aux) (approval.aux) (Dedication.aux) (Abstract.aux)
+(Acknowledgment.aux) (Chapter1.aux) (Chapter2.aux) (Chapter3.aux) (Chapter4.aux) (Ch-Conclusions.aux)) )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 5348 strings out of 493334
- 70457 string characters out of 3139219
- 146174 words of memory out of 3000000
- 8682 multiletter control sequences out of 15000+200000
- 17230 words of font info for 68 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 39i,11n,43p,835b,2449s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 5148 strings out of 428408
+ 64063 string characters out of 3160622
+ 143282 words of memory out of 3000000
+ 8375 multiletter control sequences out of 15000+200000
+ 16931 words of font info for 67 fonts, out of 3000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 39i,5n,43p,834b,2394s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Main.dvi (24 pages, 57696 bytes).
+Output written on Main.pdf (17 pages).
