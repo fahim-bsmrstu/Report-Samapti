@@ -1,0 +1,21 @@
+\fakechapter 
+\contentsline {chapter}{Abstract}{i}
+\fakechapter 
+\contentsline {chapter}{Acknowledgment}{ii}
+\fakechapter 
+\fakechapter 
+\fakechapter 
+\realchapter 
+\fakechapter 
+\realchapter 
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Organization of the Thesis}{1}
+\contentsline {chapter}{\numberline {2}Related Works}{2}
+\contentsline {chapter}{\numberline {3}Supergraph Based Periodic Behaviors Mining (SPBMiner)}{3}
+\contentsline {chapter}{\numberline {4}Experimental Evaluation}{4}
+\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{5}
+\fakechapter 
+\contentsline {chapter}{Bibliography}{6}
+\ttl@change@i {\@ne }{chapter}{6pc}{\bfseries }{\contentslabel [\appendixname \ \thecontentslabel ]{6pc}}{}{\hfill \contentspage }\relax 
+\ttl@change@v {chapter}{}{}{}\relax 
+\contentsfinish 
