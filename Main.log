@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100 64-bit) (preloaded format=xelatex 2017.1.5)  21 JAN 2017 16:14
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100 64-bit) (preloaded format=xelatex 2017.1.5)  25 JAN 2017 17:00
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -313,36 +313,371 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen134
 )
-\c@definition=\count122
-\c@mypro=\count123
-\c@proposition=\count124
-\c@proof=\count125
-\c@corollary=\count126
-\c@theorem=\count127
-\c@lemma=\count128
- (Main.aux (Cover.aux) (InnerCover.aux) (TitlePage.aux)
-(approval.aux) (Dedication.aux) (Abstract.aux) (Acknowledgment.aux) (Chapter1.aux) (Chapter2.aux) (Chapter3.aux)
-(Chapter4.aux) (Ch-Conclusions.aux))
+("C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec.sty" ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.st
+y"
+Package: expl3 2016/11/21 v6760 L3 programming layer (loader) 
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
+Package: expl3 2016/11/21 v6760 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/06/13 v6596 L3 Bootstrap code
+L3 Module: l3names 2016/10/13 v6722 L3 Namespace for primitives
+L3 Module: l3basics 2016/09/01 v6696 L3 Basic definitions
+L3 Module: l3expan 2016/08/19 v6684 L3 Argument expansion
+L3 Module: l3tl 2016/08/19 v6692 L3 Token lists
+L3 Module: l3str 2016/08/19 v6692 L3 Strings
+L3 Module: l3seq 2016/08/19 v6685 L3 Sequences and stacks
+L3 Module: l3int 2016/09/07 v6700 L3 Integers
+\c_max_int=\count122
+\l_tmpa_int=\count123
+\l_tmpb_int=\count124
+\g_tmpa_int=\count125
+\g_tmpb_int=\count126
+L3 Module: l3quark 2016/08/19 v6685 L3 Quarks
+L3 Module: l3prg 2016/08/18 v6679 L3 Control structures
+\g__prg_map_int=\count127
+L3 Module: l3clist 2016/08/19 v6685 L3 Comma separated lists
+L3 Module: l3token 2016/09/01 v6695 L3 Experimental token manipulation
+L3 Module: l3prop 2016/08/19 v6685 L3 Property lists
+L3 Module: l3msg 2016/08/19 v6691 L3 Messages
+L3 Module: l3file 2016/08/19 v6685 L3 File and I/O operations
+\l_iow_line_count_int=\count128
+\l__iow_target_count_int=\count129
+\l__iow_current_line_int=\count130
+\l__iow_current_word_int=\count131
+\l__iow_current_indentation_int=\count132
+L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
+\c_zero_dim=\dimen135
+\c_max_dim=\dimen136
+\l_tmpa_dim=\dimen137
+\l_tmpb_dim=\dimen138
+\g_tmpa_dim=\dimen139
+\g_tmpb_dim=\dimen140
+\c_zero_skip=\skip90
+\c_max_skip=\skip91
+\l_tmpa_skip=\skip92
+\l_tmpb_skip=\skip93
+\g_tmpa_skip=\skip94
+\g_tmpb_skip=\skip95
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+L3 Module: l3keys 2016/09/21 v6711 L3 Key-value interfaces
+\l_keys_choice_int=\count133
+L3 Module: l3fp 2016/11/21 v6761 L3 Floating points
+\c__fp_leading_shift_int=\count134
+\c__fp_middle_shift_int=\count135
+\c__fp_trailing_shift_int=\count136
+\c__fp_big_leading_shift_int=\count137
+\c__fp_big_middle_shift_int=\count138
+\c__fp_big_trailing_shift_int=\count139
+\c__fp_Bigg_leading_shift_int=\count140
+\c__fp_Bigg_middle_shift_int=\count141
+\c__fp_Bigg_trailing_shift_int=\count142
+L3 Module: l3box 2016/08/19 v6685 L3 Experimental boxes
+\c_empty_box=\box40
+\l_tmpa_box=\box41
+\l_tmpb_box=\box42
+\g_tmpa_box=\box43
+\g_tmpb_box=\box44
+L3 Module: l3coffins 2016/08/19 v6685 L3 Coffin code layer
+\l__coffin_internal_box=\box45
+\l__coffin_internal_dim=\dimen141
+\l__coffin_offset_x_dim=\dimen142
+\l__coffin_offset_y_dim=\dimen143
+\l__coffin_x_dim=\dimen144
+\l__coffin_y_dim=\dimen145
+\l__coffin_x_prime_dim=\dimen146
+\l__coffin_y_prime_dim=\dimen147
+\c_empty_coffin=\box46
+\l__coffin_aligned_coffin=\box47
+\l__coffin_aligned_internal_coffin=\box48
+\l_tmpa_coffin=\box49
+\l_tmpb_coffin=\box50
+\l__coffin_display_coffin=\box51
+\l__coffin_display_coord_coffin=\box52
+\l__coffin_display_pole_coffin=\box53
+\l__coffin_display_offset_dim=\dimen148
+\l__coffin_display_x_dim=\dimen149
+\l__coffin_display_y_dim=\dimen150
+L3 Module: l3color 2016/06/13 v6596 L3 Experimental color support
+L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
+L3 Module: l3candidates 2016/08/19 v6688 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen151
+\l__box_bottom_dim=\dimen152
+\l__box_left_dim=\dimen153
+\l__box_right_dim=\dimen154
+\l__box_top_new_dim=\dimen155
+\l__box_bottom_new_dim=\dimen156
+\l__box_left_new_dim=\dimen157
+\l__box_right_new_dim=\dimen158
+\l__box_internal_box=\box54
+\l__coffin_bounding_shift_dim=\dimen159
+\l__coffin_left_corner_dim=\dimen160
+\l__coffin_right_corner_dim=\dimen161
+\l__coffin_bottom_corner_dim=\dimen162
+\l__coffin_top_corner_dim=\dimen163
+\l__coffin_scaled_total_height_dim=\dimen164
+\l__coffin_scaled_width_dim=\dimen165
+L3 Module: l3luatex 2016/08/18 v6679 L3 Experimental LuaTeX-specific functions
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3xdvipdfmx.def"
+File: l3xdvidpfmx.def 2016/08/18 v6679 L3 Experimental driver: xdvipdfmx
+\l__driver_tmp_box=\box55
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
+Package: xparse 2016/11/21 v6760 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count143
+\l__xparse_m_args_int=\count144
+\l__xparse_mandatory_args_int=\count145
+\l__xparse_processor_int=\count146
+\l__xparse_v_nesting_int=\count147
+)
+Package: fontspec 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec-xetex.sty"
+Package: fontspec-xetex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTeX
+\l_fontspec_script_int=\count148
+\l_fontspec_language_int=\count149
+\l_fontspec_strnum_int=\count150
+\l__fontspec_tmpa_dim=\dimen166
+\l__fontspec_tmpb_dim=\dimen167
+\l__fontspec_tmpc_dim=\dimen168
+\g__file_internal_ior=\read1
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1enc.def"
+File: eu1enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+)
+LaTeX Font Info:    Try loading font information for EU1+lmr on input line 105.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmr.fd"
+File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+("C:\Program Files\MiKTeX 2.9\tex\xelatex\xunicode\xunicode.sty"
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many other characters in Unicode lower plane
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\tipa\t3enc.def"
+File: t3enc.def 2001/12/31 T3 encoding
+LaTeX Font Info:    Redeclaring font encoding T3 on input line 42.
+LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357.
+("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmss.fd"
+File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+\tipaTiiicode=\count151
+\tipasavetokens=\toks22
+\tipachecktokens=\toks23
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__fontspec_post_arg:w with sig. 'mmO{}' on line 353.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fontspec with sig. 'om' on line 355.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmainfont with sig. 'om' on line 365.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setsansfont with sig. 'om' on line 375.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmonofont with sig. 'om' on line 385.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathrm with sig. 'om' on line 399.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setboldmathrm with sig. 'om' on line 407.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathsf with sig. 'om' on line 415.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathtt with sig. 'om' on line 423.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfamily with sig. 'mom' on line 437.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontface with sig. 'mom' on line 453.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \defaultfontfeatures with sig. 't+om' on line 467.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeatures with sig. 'm' on line 529.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfeature with sig. 'mm' on line 540.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newAATfeature with sig. 'mmmm' on line 548.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newopentypefeature with sig. 'mmm' on line 556.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeature with sig. 'mm' on line 577.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 586.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontscript with sig. 'mm' on line 590.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontlanguage with sig. 'mm' on line 594.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 599.
+.................................................
+\l__fontspec_tmp_int=\count152
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec.cfg")
+LaTeX Info: Redefining \itshape on input line 2705.
+LaTeX Info: Redefining \slshape on input line 2710.
+LaTeX Info: Redefining \scshape on input line 2715.
+LaTeX Info: Redefining \upshape on input line 2720.
+\l__fontspec_em_int=\count153
+\l__fontspec_emdef_int=\count154
+LaTeX Info: Redefining \em on input line 2736.
+LaTeX Info: Redefining \emph on input line 2742.
+LaTeX Info: Redefining \- on input line 2746.
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \oldstylenums with sig. 'm' on line 2841.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \liningnums with sig. 'm' on line 2845.
+.................................................
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\polyglossia\polyglossia.sty"
+Package: polyglossia 2015/03/25 v1.42.4 Alternative to Babel for XeLaTeX and LuaLaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count155
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\makecmds\makecmds.sty"
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+\XKV@toks=\toks24
+\XKV@tempa@toks=\toks25
+)
+\XKV@depth=\count156
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+\xpg@normalclass=\XeTeXcharclass1
+)
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font [Kalpurush.ttf] does not contain any OpenType `Script' information.
+.................................................
+\g__fontspec_family_[Kalpurush.ttf]_int=\count157
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family '[Kalpurush.ttf](0)' created for font '[Kalpurush.ttf]' with
+. options [Ligatures=TeX].
+. 
+. This font family consists of the following NFSS series/shapes:
+. - 'normal' (m/n) with NFSS spec.: <->"[Kalpurush]/OT:mapping=tex-text;"
+. - 'small caps'  (m/sc) with NFSS spec.: - 'bold' (bx/n) with NFSS spec.:
+. <->"[Kalpurush]/B/OT:mapping=tex-text;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: - 'italic' (m/it) with NFSS
+. spec.: <->"[Kalpurush]/I/OT:mapping=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: - 'bold italic' (bx/it)
+. with NFSS spec.: <->"[Kalpurush]/BI/OT:mapping=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+.................................................
+\c@definition=\count158
+\c@mypro=\count159
+\c@proposition=\count160
+\c@proof=\count161
+\c@corollary=\count162
+\c@theorem=\count163
+\c@lemma=\count164
+ (Main.aux (Cover.aux) (InnerCover.aux) (TitlePage.aux) (approval.aux) (Dedication.aux) (Acknowledgment.aux) (Abstract.a
+ux) (Chapter1.aux) (Chapter2.aux) (Chapter3.aux)
+(Chapter4.aux) (Experiment.aux) (Ch-Conclusions.aux))
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 113.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 113.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 114.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 114.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
 
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -378,16 +713,74 @@ LaTeX Font Info:    ... okay on input line 113.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+.................................................
+. fontspec info: "setup-math"
+. 
+. Adjusting the maths setup (use [no-math] to avoid this).
+.................................................
+\symlegacymaths=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 114.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 114.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 114.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 114.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 114.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 114.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 114.
+LaTeX Font Info:    Redeclaring math accent \check on input line 114.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 114.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 114.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 114.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 114.
+LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 114.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> EU1/[Kalpurush.ttf](0)/m/n on input line 114.
+LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 114.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> EU1/[Kalpurush.ttf](0)/m/n on input line 114.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  EU1/[Kalpurush.ttf](0)/m/n --> EU1/[Kalpurush.ttf](0)/m/n on input line 114.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> EU1/[Kalpurush.ttf](0)/m/it on input line 114.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> EU1/[Kalpurush.ttf](0)/bx/n on input line 114.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 114.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 114.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  EU1/[Kalpurush.ttf](0)/m/n --> EU1/[Kalpurush.ttf](0)/bx/n on input line 114.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> EU1/[Kalpurush.ttf](0)/bx/it on input line 114.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 114.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 114.
 \openout2 = `Cover.aux'.
 
 (Cover.tex
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 13.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
- [1
+LaTeX Font Info:    Try loading font information for EU1+ptm on input line 13.
+LaTeX Font Info:    No file EU1ptm.fd. on input line 13.
+
+
+LaTeX Font Warning: Font shape `EU1/ptm/bx/n' undefined
+(Font)              using `EU1/lmr/m/n' instead on input line 13.
+
+[1
 
 
 
@@ -405,19 +798,19 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 
  (TitlePage.tex
 LaTeX Font Info:    Try loading font information for U+lasy on input line 36.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 36.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 36.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+[1
 
 
 
@@ -439,8 +832,16 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ])
+\openout2 = `Acknowledgment.aux'.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 130.
+ (Acknowledgment.tex) [1
+
+
+
+
+]
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 138.
 
 \openout2 = `Abstract.aux'.
 
@@ -449,22 +850,21 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 
 
 
-
-]
-\openout2 = `Acknowledgment.aux'.
-
- (Acknowledgment.tex) [2
+] (Main.toc [2
 
 
-
-] (Main.toc)
+])
 \tf@toc=\write3
 \openout3 = `Main.toc'.
 
- [3
 
 
-] (Main.lof)
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3] (Main.lof)
 \tf@lof=\write4
 \openout4 = `Main.lof'.
 
@@ -486,33 +886,35 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 
 ]
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 176.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 181.
 
 \openout2 = `Chapter1.aux'.
 
 (Chapter1.tex
 Chapter 1.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 12.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
-Missing character: There is no • in font cmr10!
-Missing character: There is no • in font cmr10!
-Missing character: There is no • in font cmr10!
-Missing character: There is no • in font cmr10!
-Missing character: There is no • in font cmr10!
-) [1
+[1
 
 
 
-]
+] [2]
+File: figure/one.eps Graphic file (type eps)
+ <figure/one.eps> [3]
+Missing character: There is no • in font [Kalpurush]/OT:mapping=tex-text;!
+Missing character: There is no • in font [Kalpurush]/OT:mapping=tex-text;!
+Missing character: There is no • in font [Kalpurush]/OT:mapping=tex-text;!
+Missing character: There is no • in font [Kalpurush]/OT:mapping=tex-text;!
+Missing character: There is no • in font [Kalpurush]/OT:mapping=tex-text;!
+Missing character: There is no • in font [Kalpurush]/OT:mapping=tex-text;!
+Missing character: There is no • in font [Kalpurush]/OT:mapping=tex-text;!
+Missing character: There is no • in font [Kalpurush]/OT:mapping=tex-text;!
+Missing character: There is no • in font [Kalpurush]/OT:mapping=tex-text;!
+Missing character: There is no • in font [Kalpurush]/OT:mapping=tex-text;!
+) [4]
 \openout2 = `Chapter2.aux'.
 
  (Chapter2.tex
 Chapter 2.
-) [2
+) [5
 
 
 
@@ -521,16 +923,38 @@ Chapter 2.
 
  (Chapter3.tex
 Chapter 3.
-) [3
+[6
 
 
 
 ]
+File: figure/two.eps Graphic file (type eps)
+ <figure/two.eps> [7]
+File: figure/three.eps Graphic file (type eps)
+ <figure/three.eps> [8]
+File: figure/four.eps Graphic file (type eps)
+ <figure/four.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 83--89
+
+ []
+
+[9]
+File: figure/five.eps Graphic file (type eps)
+ <figure/five.eps>) [10]
 \openout2 = `Chapter4.aux'.
 
  (Chapter4.tex
 Chapter 4.
-) [4
+[11
+
+
+
+] [12]) [13]
+\openout2 = `Experiment.aux'.
+
+ (Experiment.tex
+Chapter 5.
+) [14
 
 
 
@@ -538,14 +962,14 @@ Chapter 4.
 \openout2 = `Ch-Conclusions.aux'.
 
  (Ch-Conclusions.tex
-Chapter 5.
-) [5
+Chapter 6.
+) [15
 
 
 
 ]
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 191.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 197.
 
 (Main.bbl
 
@@ -553,24 +977,31 @@ LaTeX Warning: Empty `thebibliography' environment on input line 24.
 
 )
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 202.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 208.
 
-[6
+[16
 
 
-] (Main.aux (Cover.aux) (InnerCover.aux) (TitlePage.aux) (approval.aux) (Dedication.aux) (Abstract.aux)
-(Acknowledgment.aux) (Chapter1.aux) (Chapter2.aux) (Chapter3.aux) (Chapter4.aux) (Ch-Conclusions.aux)) )
+] (Main.aux (Cover.aux) (InnerCover.aux) (TitlePage.aux) (approval.aux) (Dedication.aux) (Acknowledgment.aux)
+(Abstract.aux) (Chapter1.aux) (Chapter2.aux) (Chapter3.aux) (Chapter4.aux) (Experiment.aux) (Ch-Conclusions.aux))
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 5148 strings out of 428408
- 64063 string characters out of 3160622
- 143282 words of memory out of 3000000
- 8375 multiletter control sequences out of 15000+200000
- 16931 words of font info for 67 fonts, out of 3000000 for 9000
+ 17858 strings out of 428408
+ 326120 string characters out of 3160622
+ 365991 words of memory out of 3000000
+ 20971 multiletter control sequences out of 15000+200000
+ 14726 words of font info for 90 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 39i,5n,43p,834b,2394s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,15n,63p,10346b,10373s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Main.pdf (17 pages).
+Output written on Main.pdf (28 pages).

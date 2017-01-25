@@ -47,12 +47,13 @@
 \usepackage{amssymb}
 \usepackage{titletoc}
 
+
 %from here
-%\usepackage{fontspec}
-%
-%\usepackage{polyglossia}
-%
-%%\setmainfont{[Kalpurush.ttf]}
+\usepackage{fontspec}
+
+\usepackage{polyglossia}
+
+\setmainfont{[Kalpurush.ttf]}
 %\setmainfont{[Siyamrupali.ttf]}
 
 %\setmainfont{FreeSerif:script=Kalpurush.ttf}
@@ -112,11 +113,18 @@
 %
 \begin{document}
 
+
+
 \include{Cover}
 \include{InnerCover}
 \include{TitlePage}
 \include{approval}
 \include{Dedication}
+
+\switchchapter{fake} 
+\addcontentsline{toc}{chapter}{Acknowledgment}
+%
+\include{Acknowledgment}
 
 %
 %: ----------------------- abstract ------------------------
@@ -137,10 +145,7 @@
 %
 % adding the acknowledgment 
 % this also adds the acknowledgment in the table of contents
-\switchchapter{fake} 
-\addcontentsline{toc}{chapter}{Acknowledgment}
-%
-\include{Acknowledgment}
+
 %
 %: ----------------------- contents ------------------------
 %
@@ -185,6 +190,7 @@
 \include{Chapter2}
 \include{Chapter3}
 \include{Chapter4}
+\include{Experiment}
 \include{Ch-Conclusions}
 
 %

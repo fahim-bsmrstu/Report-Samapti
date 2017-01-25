@@ -1,2 +1,75 @@
-\chapter{Experimental Evaluation}
+\chapter{Implementation}
 \label{Ch_Chapter4}
+
+\section{Bangla Corpus}
+
+Bangla language contains huge range of vocabulary which makes the language variegated in the world. Here, we develop a dictionary data set where 30 documents are used. In this system, we use the dictionary several times. It has two main reasons to access this dictionary.  First one is to check a word which is rooted or not and second one is to get the associated POS tag for a word.
+
+\section{Bangla Stemming}
+
+Stemming is an operation that splits a word into its constituent root part and affix without doing complete morphological analysis. Terms with common stems tend to have similar meaning, which makes stemming an attractive option to increase the performance of news categorization task, where morphological analysis would be too computationally expensive. Another advantage of stemming is that it drastically reduce the vocabulary size of highly inflected languages corpus like Bangla.
+The algorithm of using bangla stemmer
+
+
+\begin{algorithm}[H]
+ %\KwData{this text}
+ %\KwResult{how to write algorithm with \LaTeX2e }
+ %initialization\;
+ \While{each word 2 document}{
+  dictionary-checkers(word)\;
+  \eIf{word 2 dictionary}{
+   stem=word\;
+   %current section becomes this one\;
+   }{
+   stem1=stemming(word)\;
+	\eIf{stem1 2 dictionary}{stem=stem1}
+	{stem=stemming(stem1)}
+  }
+	}
+ 
+ \caption{bangla-stemmer (word)}
+
+\end{algorithm}
+
+
+\section{Bangla Stop Words}
+
+Statistical analysis through the documents showed that some words have quite low frequency, while some others act just the opposite. The common characteristic of these words is that they carry no significant information and used just because of grammar. This set of words are usually known as stop words.  In the resulting stop word list, there were thus a large number of pronouns, articles, prepositions, and conjunctions. As in various English stop-word lists, there
+were also some verbal forms. When using, this stop word list, the vocabulary size reduced significantly.
+
+
+\section{Term Weighting}
+
+Term Weighting of documents can be evaluated by measuring the Term Frequency (TF) and Inverse Document Frequency (IDF). These are the statistical measurement of weight that is
+intended to determine the importance of a word for a document in a corpus. It can be used for stop-word filtering. This is the combine definition of Normalized Term Frequency and Inverse Document Frequency.
+
+
+\subsection{TF}
+
+Term Frequency measures how frequently a word occurs in a document. Different document varies in length. Therefore, a word can be occurring more times in a larger document than shorter. Thus, the raw frequency of a word is divided by the length of the document.
+
+\(tf(t,d) = \frac{f(t,d)}{length of d}\)
+
+here $f(t,d)$ is the raw frequency of word t in document d.
+
+
+\subsection{IDF}
+
+Inverse Document Frequency measures the importance of a word within a document. TF provides same importance for every word, where IDF provides less weight to the frequent word and high weight to the rare word.
+
+\(idf(t) = log(N/DF)\)
+
+The TF-IDF weighting scheme sets a weight to a word t in document d
+
+\(tf -idf(t ,d) = tf (t ,d) * idf(t)\)
+
+The weight of a word t in document d is highest when t occurs many times in a small number of document, and lower when t occurs a very few times in a document or occurs in many documents of the corpus.
+
+
+\section{Cosine Similarity between query and document}
+
+The similarity measures comparing between document vector and query vector. Though the angle between two vectors considered (0 to 90), than the similarity lies between 1 to 0.
+
+\(Similarity = \cos\theta = \frac{\overrightarrow{A}.\overrightarrow{B}}{|\overrightarrow{A}||\overrightarrow{B}|}\)
+
+

@@ -1,5 +1,11 @@
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Main Process of our system}}{3}
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Indexing Document Ids \& keep it in a vector.}}{8}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Pre processing of Input query}}{8}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Stemming processing}}{9}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Overall graphical view of our proposed system}}{10}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
