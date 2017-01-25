@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100 64-bit) (preloaded format=xelatex 2017.1.5)  25 JAN 2017 17:00
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100 64-bit) (preloaded format=xelatex 2017.1.5)  25 JAN 2017 20:56
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -954,16 +954,35 @@ Chapter 4.
 
  (Experiment.tex
 Chapter 5.
-) [14
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+[14
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
+
+ []
+
+File: figure/six.eps Graphic file (type eps)
+<figure/six.eps> [16]
+Missing character: There is no • in font [Kalpurush]/OT:mapping=tex-text;!
+Missing character: There is no • in font [Kalpurush]/OT:mapping=tex-text;!
+) [17]
 \openout2 = `Ch-Conclusions.aux'.
 
  (Ch-Conclusions.tex
 Chapter 6.
-) [15
+) [18
 
 
 
@@ -979,7 +998,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 24.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 208.
 
-[16
+[19
 
 
 ] (Main.aux (Cover.aux) (InnerCover.aux) (TitlePage.aux) (approval.aux) (Dedication.aux) (Acknowledgment.aux)
@@ -987,21 +1006,18 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17858 strings out of 428408
- 326120 string characters out of 3160622
- 365991 words of memory out of 3000000
- 20971 multiletter control sequences out of 15000+200000
+ 17861 strings out of 428408
+ 326158 string characters out of 3160622
+ 366002 words of memory out of 3000000
+ 20973 multiletter control sequences out of 15000+200000
  14726 words of font info for 90 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  39i,15n,63p,10346b,10373s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Main.pdf (28 pages).
+Output written on Main.pdf (31 pages).

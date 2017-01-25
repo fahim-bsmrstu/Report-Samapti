@@ -1,2 +1,10 @@
 \chapter{Conclusions and Future Work}
 \label{Ch_Conclusion}
+
+\section{Conclusion}
+
+In Bangla document ranking, the term frequency and cosine similarity perform the utmost level of accuracy (88.10\%) than any other existing methods. The model we have described treats all documents on an equal footing. In addition to, this is the extraction based ranking system, is not real time ranking formation. In the typical web search setting it is important to users that the most relevant documents are top-ranked given the large number of potentially relevant documents. For each term in the dictionary, it’s straightforward to pre compute the top 1,000(say) documents for that term. Then for a given multi-term query it’s pretty likely that the top search results will come from one of the pre-computed lists of top documents for the terms in the query.
+
+\section{Future Work}
+
+The problem is that it computes the cosine similarity for every single document in the corpus. In future, ideas that are used in other methods, will be used together with the proposed approaches to improve the performance of the ranking system.

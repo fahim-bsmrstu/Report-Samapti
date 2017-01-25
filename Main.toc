@@ -39,9 +39,12 @@
 \contentsline {section}{\numberline {4.5}Cosine Similarity between query and document}{13}
 \contentsline {chapter}{\numberline {5}Experimental Result \& Discussion}{14}
 \contentsline {section}{\numberline {5.1}Experimental Result}{14}
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{15}
+\contentsline {section}{\numberline {5.2}Discussion}{17}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{18}
+\contentsline {section}{\numberline {6.1}Conclusion}{18}
+\contentsline {section}{\numberline {6.2}Future Work}{18}
 \fakechapter 
-\contentsline {chapter}{Bibliography}{16}
+\contentsline {chapter}{Bibliography}{19}
 \ttl@change@i {\@ne }{chapter}{6pc}{\bfseries }{\contentslabel [\appendixname \ \thecontentslabel ]{6pc}}{}{\hfill \contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
 \contentsfinish 
