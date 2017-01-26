@@ -1,14 +1,164 @@
-\chapter{Related Works}
+\chapter{Literature Review}
 \label{Ch_Chapter2}
-%
-%\section{Introduction}
-%
 
-%\section{C এর কম্পাইলার}
-%আমরা আগের Chapter এ জেনেছি যে, মানুষের ভাষার কাছাকাছি লিখিত ভাষাকে যন্ত্রের কাছে বোধগম্য 
-%করে তুলে একটি software দোভাষী যাকে বলা হয় compiler ।
-%
-%C একটি structured প্রোগ্রামিং ল্যাংগুয়েজ। এর প্রতিটি পর্যায়ে নির্ভুলভাবে নিয়ম মেনে চলতে হয়। এমনকি
-%C প্রোগ্রামিং ল্যাংগুয়েজটি ছোট হাতের অক্ষর এবং বড় হাতের অক্ষরকে আলাদা ভাবে দেখে, case sensitive ।
-%এই নিয়মের অন্যথা হলে C এর জন্য নির্ধারিত compiler টি এই ভাষাকে আর যন্ত্রের ভাষাতে 
-%(machine language) রূপান্তর করতে পারে না।
+
+Prior to many works has been done by many researchers on English for ranking document. They used many methods or technique for ranking document. There are some overview of previous works that is given below--
+
+\section{Donna Harman,1986}
+
+\begin{enumerate}
+	\item Here three types of measures tested
+	\begin{itemize}
+		\item the importance of a term within a document collection
+		\item the importance of a term within a given document, and
+		\item the length of a document, are all important in term weighting of documents
+	\end{itemize}
+	
+	\item The two types of term-importance factors, impatience within a collection, and importance within a given document, measure term usage in two complementary places-within a given document and within an entire document collection-- and combining them produces a cumulative effect
+	
+	\item The normalized noise measure of term importance within a document collection is a viable alternative measure to the inverted document frequency measure. Using the log2, of the frequency of a term within a document instead of its raw frequency produces a superior measure of the importance of a term within a given document.
+	
+	\item Adding the number of matches between a document and a query to a term weight produced by any combination involving a factor that measures term importance within a collection does not produce significant improvement in performance, at least for this test collection and for full word indexing.
+	
+	\item It is important to consider the length of a document in ranking. Dividing the total term weight by the log of the document length produces significant performance improvement for this test collection.
+	
+\end{enumerate}
+
+
+\subsection{Limitation}
+
+The future research is needed to resolve some of the issues. The log2 of the frequency and of the document length is only one possible function of these measures. there is no removal stop words and stemming.
+
+\section{Kent E. Seamons and Dik Lun Lee(1987)}
+
+In this paper they used Vector Space Model for ranking document. They showed five methods for ranking method. They are…
+
+\subsection{Method 1}
+
+The full vector is rarely stored internally as is because it is long and sparse. Instead, document vectors are stored in an inverted file that can return the list of documents containing a given keyword and the accompanying frequency information. Besides, direct comparison between the vectors is slow because it would incur N vector comparisons. Vector comparison can be facilitated with an inverted file as follows.
+
+
+\begin{algorithm}[H]
+
+\While{every query term q in Q}{
+
+		retrieve the postings list for q from the inverted file\;
+		
+		\While{each document d indexed in the postings list}{
+		
+			score(d)=score(d)+tf(d,q)*idf(q)\;
+				
+		}
+}
+
+Normalize scores\;
+Sort documents according to normalized scores\;
+
+\caption{Vector Comparison}
+
+\end{algorithm}
+
+
+With an inverted file, the number of postings lists accessed equals the number of query terms. The computational cost is acceptable for queries of reasonable size. Unfortunately, the computation of the normalization factor is extremely expensive because the term \(\sum_{j=1}^{V}w^2(i,j)\) in the normalization factor requires access to every document term, not just the terms specified in the query. Nor can the normalization factor be precomputed under the \(tf *idf\)  method, because every insertion and deletion on the document collection would change $idf$ and thus the precomputed normalization factors.
+
+\subsection{Method 2}
+
+For this second method, to approximate the effect of normalization we use instead the square root of the number of terms in a document as the normalization factor. While this still favors long documents, the effect of document size is not as significant as it is without any normalization. This normalization factor is much easier to compute than the original one; also, pre computation is possible. With the approximation, the formula becomes\\
+
+\(sim(Q,D_i) = \frac{\sum_{j=1}^{V}w_{Q,j}*w_{i,j}}{\sqrt{number of terms in D_i}}\)
+
+\subsection{Method 3}
+
+This method lets us further simplify the computation by simply dropping the normalization factor:\\
+
+\(sim(Q,D_i) = \sum_{j=1}^{V}w_{Q,j}*w_{i,j}\)\\
+
+That is, the document score equals the inner product of the document and query vectors. Instead of computing the angle between the document and query vectors, this formula computes the length of the projection of the document. vector onto the query vector. It is quite clear that the document score is directly proportional to the length of the document vector.
+
+\subsection{Method 4}
+
+This method only makes use of term frequencies in the calculation and ignores $idf$. It simplifies the computation as well as saving the file structure needed for storing the $df$ values.\\
+
+\(sim(Q,D_i) = \sum_{j=1}^{V}w_{Q,j}*tf_{i,j}\)
+
+\subsection{Method 5}
+
+This method ignores the term frequency $(tf)$ information but retains the $idf$ values in determining term weights:\\
+
+\(sim(Q,D_i) = \sum_{j=1}^{V}w_{Q,j}*w_{i,j}\) , where 
+\[ w_{Q,j} =
+  \begin{cases}
+    1       & \quad  j \in Q \\
+    0  & \quad \text{Otherwise } \\
+  \end{cases}
+\]
+
+and
+
+\[ w_{i,j} =
+  \begin{cases}
+    1       & \quad  j \in D_i \\
+    0  & \quad \text{Otherwise } \\
+  \end{cases}
+\]\\
+
+The $idf$ values have the same effect as before. That is, they diminish the significance of words that appear in a large number of documents.
+
+
+\subsection{Method 6}
+
+This method is the simplest in the family. It ignores both $tf$ and $idf$ values and therefore measures the number of common terms in the document and query vectors.\\
+
+\(sim(Q,D_i) = \sum_{j=1}^{V}w_{Q,j}*w_{i,j}\) , where 
+\[ w_{Q,j} =
+  \begin{cases}
+    1       & \quad  j \in Q \\
+    0  & \quad \text{Otherwise } \\
+  \end{cases}
+\]
+
+and
+
+\[ w_{i,j} =
+  \begin{cases}
+    idf_i       & \quad  j \in D_i \\
+    0  & \quad \text{Otherwise } \\
+  \end{cases}
+\]\\
+
+The performance gain is as much as 25 percent over baseline. However, there is no overwhelming evidence to indicate which combination works best. For concept queries, we find it best to use only inverse document frequencies while ignoring term frequencies, but for natural-language queries both frequencies are needed— ignoring either one will produce poor results. Furthermore, the approximate normalization factor we suggest here gives the best performance and is computationally efficient. They have found that high-frequency terms or terms in the neighborhood of hits selected from context units containing at least one hit give the best feedback performance. In some cases, the gain in average precision is as much as 20–25 percent. On the other hand, although the data shows slight improvement in using terms around hits overhigh-frequency terms, the evidence is not overwhelming. To develop an efficient and effective retrieval system, many implementation issues must be considered.
+
+
+
+\section{Xuehua Shen \& ChengXiang Zhai (2003)}
+
+In interactive information retrieval, at any moment, they  may assume that a sequence of “past queries”, or “query history”, q1……qk-1, are available for a topic, and the current user query is qk. Normally, only qk is used to rank the documents in the collection. They proposed to combine q1, ..., qk-1 together with qk to have a richer model of the user’s information need. Our basic retrieval model is the KL-divergence retrieval model. 
+They explore two different strategies –combining query results and combining query models. Combining query results means that we merge the results from q1, ..., qk by taking an average of the rank of each document. Such a method would reward a document that has been ranked high by all the queries. Combining query models means that we estimate a query language model for each query qi using the maximum likelihood estimator, and then take an average of these query models to obtain a contextbased query model, which is then used to rank documents with the KL-divergence ranking formula.
+The probability of a word w according to the context-based query model is given by\\
+
+
+\(p(w|q1,……q^k) = \frac{1}{k}\sum_{i=1}^{k}\frac{c(w,q^i)}{|q^i|}\)\\
+
+where, $c(w; qi)$ is the counts of word w in query $qi$ and $|qi|$ is the length of query $qi$. Note that this is different from concatenating the query text of $q1, ..., qk$ to obtain a long query, since they normalize the counts of a query word by the length of each query, which can avoid dominance of one single query. For each document d, they also estimate a smoothed document language model using the Dirichlet prior smoothing method. We then rank documents by the KL divergence value of the query model and the document model. That is, document $d$ has a score of\\
+
+\(\sum{p(\frac{w}{q1},........q^k)log(1+\frac{c(w,d)}{\mu p(W|C)})}+log\frac{\mu}{\mu +d}\)\\
+
+where, $p(w|C)$ is the collection language model and $µ$ is the Dirichlet prior smoothing parameter . In interactive information retrieval, especially for hard topics, the user would generally need to submit a sequence of queries to the search system. They demonstrate that using query history to expand the current query can consistently improve the retrieval performance. 
+
+We have only explored the most basic methods for exploiting the query history; more sophisticated analysis is certainly possible and interesting to explore (e.g., term sequence analysis and unequal weighting of different queries).
+
+
+\section{Our Proposed System}
+
+We use term frequency and cosine similarity for ranking bangla multiple document. For finding cosine similarity we use the equation\\
+
+\(\cos(q,d) = \frac{\overrightarrow{q}.\overrightarrow{d}}{|\overrightarrow{q}||\overrightarrow{d}|}\)\\
+
+We take query as a vector and document as a vector then find similarity between them and calculating scores we rank document.
+
+
+
+
+
+
+

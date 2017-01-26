@@ -16,35 +16,46 @@
 \contentsline {section}{\numberline {1.5}What is NLP \& Document Ranking?}{3}
 \contentsline {subsection}{\numberline {1.5.1}Document Ranking}{3}
 \contentsline {section}{\numberline {1.6}Organization of the Thesis}{4}
-\contentsline {chapter}{\numberline {2}Related Works}{5}
-\contentsline {chapter}{\numberline {3}Proposed System}{6}
-\contentsline {section}{\numberline {3.1}Creating Document Vector}{6}
-\contentsline {subsection}{\numberline {3.1.1}Term Frequency}{6}
-\contentsline {subsection}{\numberline {3.1.2}Stop Word Removing}{6}
-\contentsline {subsection}{\numberline {3.1.3}Stemming}{7}
-\contentsline {subsection}{\numberline {3.1.4}Weighting Term}{7}
-\contentsline {subsubsection}{\numberline {3.1.4.1}Inverse Document Frequency(IDF)}{7}
-\contentsline {section}{\numberline {3.2}Preprocessing of Taking Query}{8}
-\contentsline {subsection}{\numberline {3.2.1}Removal of Stop Word}{9}
-\contentsline {subsection}{\numberline {3.2.2}Stemming}{9}
-\contentsline {section}{\numberline {3.3}Cosine Similarity}{9}
-\contentsline {section}{\numberline {3.4}Main Approaches}{10}
-\contentsline {chapter}{\numberline {4}Implementation}{11}
-\contentsline {section}{\numberline {4.1}Bangla Corpus}{11}
-\contentsline {section}{\numberline {4.2}Bangla Stemming}{11}
-\contentsline {section}{\numberline {4.3}Bangla Stop Words}{12}
-\contentsline {section}{\numberline {4.4}Term Weighting}{12}
-\contentsline {subsection}{\numberline {4.4.1}TF}{13}
-\contentsline {subsection}{\numberline {4.4.2}IDF}{13}
-\contentsline {section}{\numberline {4.5}Cosine Similarity between query and document}{13}
-\contentsline {chapter}{\numberline {5}Experimental Result \& Discussion}{14}
-\contentsline {section}{\numberline {5.1}Experimental Result}{14}
-\contentsline {section}{\numberline {5.2}Discussion}{17}
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{18}
-\contentsline {section}{\numberline {6.1}Conclusion}{18}
-\contentsline {section}{\numberline {6.2}Future Work}{18}
+\contentsline {chapter}{\numberline {2}Literature Review}{5}
+\contentsline {section}{\numberline {2.1}Donna Harman,1986}{5}
+\contentsline {subsection}{\numberline {2.1.1}Limitation}{6}
+\contentsline {section}{\numberline {2.2}Kent E. Seamons and Dik Lun Lee(1987)}{6}
+\contentsline {subsection}{\numberline {2.2.1}Method 1}{6}
+\contentsline {subsection}{\numberline {2.2.2}Method 2}{7}
+\contentsline {subsection}{\numberline {2.2.3}Method 3}{8}
+\contentsline {subsection}{\numberline {2.2.4}Method 4}{8}
+\contentsline {subsection}{\numberline {2.2.5}Method 5}{8}
+\contentsline {subsection}{\numberline {2.2.6}Method 6}{9}
+\contentsline {section}{\numberline {2.3}Xuehua Shen \& ChengXiang Zhai (2003)}{10}
+\contentsline {section}{\numberline {2.4}Our Proposed System}{11}
+\contentsline {chapter}{\numberline {3}Proposed System}{12}
+\contentsline {section}{\numberline {3.1}Creating Document Vector}{12}
+\contentsline {subsection}{\numberline {3.1.1}Term Frequency}{12}
+\contentsline {subsection}{\numberline {3.1.2}Stop Word Removing}{12}
+\contentsline {subsection}{\numberline {3.1.3}Stemming}{13}
+\contentsline {subsection}{\numberline {3.1.4}Weighting Term}{13}
+\contentsline {subsubsection}{\numberline {3.1.4.1}Inverse Document Frequency(IDF)}{13}
+\contentsline {section}{\numberline {3.2}Preprocessing of Taking Query}{14}
+\contentsline {subsection}{\numberline {3.2.1}Removal of Stop Word}{15}
+\contentsline {subsection}{\numberline {3.2.2}Stemming}{15}
+\contentsline {section}{\numberline {3.3}Cosine Similarity}{15}
+\contentsline {section}{\numberline {3.4}Main Approaches}{16}
+\contentsline {chapter}{\numberline {4}Implementation}{17}
+\contentsline {section}{\numberline {4.1}Bangla Corpus}{17}
+\contentsline {section}{\numberline {4.2}Bangla Stemming}{17}
+\contentsline {section}{\numberline {4.3}Bangla Stop Words}{18}
+\contentsline {section}{\numberline {4.4}Term Weighting}{18}
+\contentsline {subsection}{\numberline {4.4.1}TF}{19}
+\contentsline {subsection}{\numberline {4.4.2}IDF}{19}
+\contentsline {section}{\numberline {4.5}Cosine Similarity between query and document}{19}
+\contentsline {chapter}{\numberline {5}Experimental Result \& Discussion}{20}
+\contentsline {section}{\numberline {5.1}Experimental Result}{20}
+\contentsline {section}{\numberline {5.2}Discussion}{23}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{24}
+\contentsline {section}{\numberline {6.1}Conclusion}{24}
+\contentsline {section}{\numberline {6.2}Future Work}{24}
 \fakechapter 
-\contentsline {chapter}{Bibliography}{19}
+\contentsline {chapter}{Bibliography}{25}
 \ttl@change@i {\@ne }{chapter}{6pc}{\bfseries }{\contentslabel [\appendixname \ \thecontentslabel ]{6pc}}{}{\hfill \contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
 \contentsfinish 
