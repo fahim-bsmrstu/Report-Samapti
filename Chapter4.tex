@@ -48,20 +48,38 @@ intended to determine the importance of a word for a document in a corpus. It ca
 
 Term Frequency measures how frequently a word occurs in a document. Different document varies in length. Therefore, a word can be occurring more times in a larger document than shorter. Thus, the raw frequency of a word is divided by the length of the document.
 
-\(tf(t,d) = \frac{f(t,d)}{length of d}\)
+\begin{equation}
+tf(t,d) = \frac{f(t,d)}{length of d}
+\label{eq:tf}
+\end{equation}
 
-here $f(t,d)$ is the raw frequency of word t in document d.
 
+%\(tf(t,d) = \frac{f(t,d)}{length of d}\)
+
+here f(t,d) is the raw frequency of word t in document d. Using equation \ref{eq:tf} ,term frequency can be defined.
 
 \subsection{IDF}
 
 Inverse Document Frequency measures the importance of a word within a document. TF provides same importance for every word, where IDF provides less weight to the frequent word and high weight to the rare word.
 
-\(idf(t) = log(N/DF)\)
+\begin{equation}
+idf(t) = log(N/DF)
+\label{eq:idf1}
+\end{equation}
 
-The TF-IDF weighting scheme sets a weight to a word t in document d
+%\(idf(t) = log(N/DF)\)
 
-\(tf -idf(t ,d) = tf (t ,d) * idf(t)\)
+Using equation \ref{eq:idf1}, the idf can be measured.
+
+The TF-IDF weighting scheme sets a weight to a word t in document d,which is shown in equation \ref{eq:idf2}
+
+
+\begin{equation}
+tf -idf(t ,d) = tf (t ,d) * idf(t)
+\label{eq:idf2}
+\end{equation}
+
+%\(tf -idf(t ,d) = tf (t ,d) * idf(t)\)
 
 The weight of a word t in document d is highest when t occurs many times in a small number of document, and lower when t occurs a very few times in a document or occurs in many documents of the corpus.
 
@@ -70,6 +88,13 @@ The weight of a word t in document d is highest when t occurs many times in a sm
 
 The similarity measures comparing between document vector and query vector. Though the angle between two vectors considered (0 to 90), than the similarity lies between 1 to 0.
 
-\(Similarity = \cos\theta = \frac{\overrightarrow{A}.\overrightarrow{B}}{|\overrightarrow{A}||\overrightarrow{B}|}\)
+\begin{equation}
+Similarity = \cos\theta = \frac{\overrightarrow{A}.\overrightarrow{B}}{|\overrightarrow{A}||\overrightarrow{B}|}
+\label{eq:cosine}
+\end{equation}
+
+%\(\)
+
+The equation \ref{eq:cosine} is used for defining similarity.
 
 

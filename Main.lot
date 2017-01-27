@@ -1,7 +1,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Parameters of datasets }}{13}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Scoring Each Document }}{17}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Rank Documents }}{17}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Documents with corresponding cosine values }}{25}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Accuracy Measurement }}{27}
 \addvspace {10\p@ }
 \contentsfinish 

@@ -6,6 +6,8 @@ Prior to many works has been done by many researchers on English for ranking doc
 
 \section{Donna Harman,1986}
 
+The use of term weighting in a document produces significant gains in perfonnance, up to a 44\% improvement in average precision over simple matching. Additionally the following conclusions can be drawn from the experiments.
+
 \begin{enumerate}
 	\item Here three types of measures tested
 	\begin{itemize}
@@ -29,7 +31,7 @@ Prior to many works has been done by many researchers on English for ranking doc
 
 The future research is needed to resolve some of the issues. The log2 of the frequency and of the document length is only one possible function of these measures. there is no removal stop words and stemming.
 
-\section{Kent E. Seamons and Dik Lun Lee(1987)}
+\section{Kent E. Seamons and Dik Lun Lee(1997)}
 
 In this paper they used Vector Space Model for ranking document. They showed five methods for ranking method. They are…
 
@@ -132,7 +134,7 @@ The performance gain is as much as 25 percent over baseline. However, there is n
 
 \section{Xuehua Shen \& ChengXiang Zhai (2003)}
 
-In interactive information retrieval, at any moment, they  may assume that a sequence of “past queries”, or “query history”, q1……qk-1, are available for a topic, and the current user query is qk. Normally, only qk is used to rank the documents in the collection. They proposed to combine q1, ..., qk-1 together with qk to have a richer model of the user’s information need. Our basic retrieval model is the KL-divergence retrieval model. 
+In interactive information retrieval \cite{shen2003exploiting}, at any moment, they  may assume that a sequence of “past queries”, or “query history”, q1……qk-1, are available for a topic, and the current user query is qk. Normally, only qk is used to rank the documents in the collection. They proposed to combine q1, ..., qk-1 together with qk to have a richer model of the user’s information need. Our basic retrieval model is the KL-divergence retrieval model. 
 They explore two different strategies –combining query results and combining query models. Combining query results means that we merge the results from q1, ..., qk by taking an average of the rank of each document. Such a method would reward a document that has been ranked high by all the queries. Combining query models means that we estimate a query language model for each query qi using the maximum likelihood estimator, and then take an average of these query models to obtain a contextbased query model, which is then used to rank documents with the KL-divergence ranking formula.
 The probability of a word w according to the context-based query model is given by\\
 

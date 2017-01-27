@@ -1,13 +1,13 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Main Process of our system}}{3}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \textbf {Main Process of our system}}}{3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Indexing Document Ids \& keep it in a vector.}}{14}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Pre processing of Input query}}{14}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Stemming processing}}{15}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Overall graphical view of our proposed system}}{16}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \textbf {Indexing Document Ids \& keep it in a vector.}}}{15}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textbf {Pre processing of Input query}}}{16}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \textbf {Stemming processing}}}{16}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textbf {Overall graphical view of our proposed system}}}{18}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Graphical view of document ranking}}{22}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces \textbf {Graphical view of document ranking}}}{27}
 \addvspace {10\p@ }
 \contentsfinish 
