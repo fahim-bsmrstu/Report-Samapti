@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100 64-bit) (preloaded format=xelatex 2017.1.5)  28 JAN 2017 22:17
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100 64-bit) (preloaded format=xelatex 2017.1.5)  28 JAN 2017 22:39
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -1030,8 +1030,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
  []
 
 [25] [26]
+Overfull \hbox (33.40048pt too wide) in paragraph at lines 104--117
+ [][] 
+ []
+
 File: figure/six.eps Graphic file (type eps)
- <figure/six.eps> [27]) [28]
+<figure/six.eps> [27]) [28]
 \openout2 = `Ch-Conclusions.aux'.
 
  (Ch-Conclusions.tex
@@ -1060,7 +1064,7 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 Here is how much of TeX's memory you used:
  18860 strings out of 428408
  344208 string characters out of 3160622
- 386960 words of memory out of 3000000
+ 385960 words of memory out of 3000000
  22024 multiletter control sequences out of 15000+200000
  10046 words of font info for 55 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
