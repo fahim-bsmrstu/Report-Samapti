@@ -54,11 +54,11 @@
 \contentsline {subsection}{\numberline {5.1.2}Experiment 2}{26}
 \contentsline {subsection}{\numberline {5.1.3}Experiment 3}{26}
 \contentsline {subsection}{\numberline {5.1.4}Experiment 4}{26}
-\contentsline {subsection}{\numberline {5.1.5}Experiment 5}{26}
+\contentsline {subsection}{\numberline {5.1.5}Experiment 5}{27}
 \contentsline {section}{\numberline {5.2}Discussion}{28}
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{29}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Scopes}{29}
 \contentsline {section}{\numberline {6.1}Conclusion}{29}
-\contentsline {section}{\numberline {6.2}Future Work}{29}
+\contentsline {section}{\numberline {6.2}Future Scopes}{29}
 \fakechapter 
 \contentsline {chapter}{Bibliography}{30}
 \ttl@change@i {\@ne }{chapter}{6pc}{\bfseries }{\contentslabel [\appendixname \ \thecontentslabel ]{6pc}}{}{\hfill \contentspage }\relax 

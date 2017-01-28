@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100 64-bit) (preloaded format=xelatex 2017.1.5)  27 JAN 2017 21:12
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100 64-bit) (preloaded format=xelatex 2017.1.5)  28 JAN 2017 08:48
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -764,71 +764,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 119.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 119.
-\openout2 = `Cover.aux'.
-
-(Cover.tex
-LaTeX Font Info:    Try loading font information for EU1+ptm on input line 13.
-LaTeX Font Info:    No file EU1ptm.fd. on input line 13.
-
-
-LaTeX Font Warning: Font shape `EU1/ptm/bx/n' undefined
-(Font)              using `EU1/lmr/m/n' instead on input line 13.
-
-[1
-
-
-
-
-])
-\openout2 = `InnerCover.aux'.
-
- (InnerCover.tex [1
-
-
-
-
-])
-\openout2 = `TitlePage.aux'.
-
- (TitlePage.tex
-LaTeX Font Info:    Try loading font information for U+lasy on input line 36.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 36.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 36.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-[1
-
-
-
-
-])
-\openout2 = `approval.aux'.
-
- (approval.tex [1
-
-
-
-
-])
-\openout2 = `Dedication.aux'.
-
- (Dedication.tex [1
-
-
-
-
-])
 \openout2 = `Acknowledgment.aux'.
 
- (Acknowledgment.tex) [1
+(Acknowledgment.tex) [1
 
 
 
@@ -844,7 +782,21 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 
 
 
-] (Main.toc [2
+] (Main.toc
+LaTeX Font Info:    Try loading font information for U+lasy on input line 12.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 12.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 12.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+[2
 
 
 ]
@@ -989,7 +941,13 @@ Missing character: There is no ল in font [lmroman10-regular]:mapping=tex-text!
 
 
 
-] [13] [14]
+] [13]
+Overfull \hbox (6.9669pt too wide) in paragraph at lines 62--63
+\EU1/lmr/m/n/10.95 same stem,while it should not be. For example, the words \EU1/Kalpurush.ttf(0)/m/n/10.95 “বাংলাদেশের”
+ \EU1/lmr/m/n/10.95 and \EU1/Kalpurush.ttf(0)/m/n/10.95 “বাংলাদেশকে”
+ []
+
+[14]
 File: figure/two.eps Graphic file (type eps)
  <figure/two.eps>
 File: figure/three.eps Graphic file (type eps)
@@ -1026,12 +984,7 @@ Chapter 4.
  (Experiment.tex
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
@@ -1040,12 +993,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
@@ -1071,23 +1029,19 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 [30
 
 
-] (Main.aux (Cover.aux) (InnerCover.aux) (TitlePage.aux) (approval.aux) (Dedication.aux) (Acknowledgment.aux)
-(Abstract.aux) (Chapter1.aux) (Chapter2.aux) (Chapter3.aux) (Chapter4.aux) (Experiment.aux) (Ch-Conclusions.aux))
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- )
+] (Main.aux (Acknowledgment.aux) (Abstract.aux) (Chapter1.aux) (Chapter2.aux) (Chapter3.aux) (Chapter4.aux)
+(Experiment.aux) (Ch-Conclusions.aux)) )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17856 strings out of 428408
- 325755 string characters out of 3160622
- 368906 words of memory out of 3000000
- 20980 multiletter control sequences out of 15000+200000
- 14646 words of font info for 80 fonts, out of 3000000 for 9000
+ 17794 strings out of 428408
+ 324789 string characters out of 3160622
+ 367906 words of memory out of 3000000
+ 20951 multiletter control sequences out of 15000+200000
+ 10046 words of font info for 55 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  39i,16n,55p,10346b,10377s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Main.pdf (43 pages).
+Output written on Main.pdf (38 pages).
