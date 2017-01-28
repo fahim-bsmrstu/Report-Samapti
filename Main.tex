@@ -46,6 +46,9 @@
 \DeclareMathOperator*{\argmax}{arg\,max}
 \usepackage{amssymb}
 \usepackage{titletoc}
+\usepackage[labelfont=bf]{caption}
+\usepackage[textfont=bf]{caption}
+\renewcommand{\bibname}{Reference}
 
 
 %from here
@@ -118,7 +121,7 @@
 %
 \begin{document}
 
-
+%\pagenumbering{arabic} \setcounter{page}{1} 
 
 %\include{Cover}
 %\include{InnerCover}
@@ -206,7 +209,7 @@
 %
 \bibliographystyle{IEEEtran}
 \switchchapter{fake} 
-\addcontentsline{toc}{chapter}{Bibliography}
+\addcontentsline{toc}{chapter}{Reference}
 \bibliography{reference}
 %\bibliography{BibTex}
 %

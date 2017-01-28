@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100 64-bit) (preloaded format=xelatex 2017.1.5)  28 JAN 2017 08:48
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100 64-bit) (preloaded format=xelatex 2017.1.5)  28 JAN 2017 22:17
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -313,6 +313,26 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen134
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen135
+\captionmargin@=\dimen136
+\captionwidth=\dimen137
+\caption@tempdima=\dimen138
+\caption@indent=\dimen139
+\caption@parindent=\dimen140
+\caption@hangindent=\dimen141
+)
+\c@ContinuedFloat=\count122
+Package caption Info: longtable package is loaded.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: subfigure package is loaded.
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec.sty" ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.st
 y"
 Package: expl3 2016/11/21 v6760 L3 programming layer (loader) 
@@ -326,31 +346,31 @@ L3 Module: l3tl 2016/08/19 v6692 L3 Token lists
 L3 Module: l3str 2016/08/19 v6692 L3 Strings
 L3 Module: l3seq 2016/08/19 v6685 L3 Sequences and stacks
 L3 Module: l3int 2016/09/07 v6700 L3 Integers
-\c_max_int=\count122
-\l_tmpa_int=\count123
-\l_tmpb_int=\count124
-\g_tmpa_int=\count125
-\g_tmpb_int=\count126
+\c_max_int=\count123
+\l_tmpa_int=\count124
+\l_tmpb_int=\count125
+\g_tmpa_int=\count126
+\g_tmpb_int=\count127
 L3 Module: l3quark 2016/08/19 v6685 L3 Quarks
 L3 Module: l3prg 2016/08/18 v6679 L3 Control structures
-\g__prg_map_int=\count127
+\g__prg_map_int=\count128
 L3 Module: l3clist 2016/08/19 v6685 L3 Comma separated lists
 L3 Module: l3token 2016/09/01 v6695 L3 Experimental token manipulation
 L3 Module: l3prop 2016/08/19 v6685 L3 Property lists
 L3 Module: l3msg 2016/08/19 v6691 L3 Messages
 L3 Module: l3file 2016/08/19 v6685 L3 File and I/O operations
-\l_iow_line_count_int=\count128
-\l__iow_target_count_int=\count129
-\l__iow_current_line_int=\count130
-\l__iow_current_word_int=\count131
-\l__iow_current_indentation_int=\count132
+\l_iow_line_count_int=\count129
+\l__iow_target_count_int=\count130
+\l__iow_current_line_int=\count131
+\l__iow_current_word_int=\count132
+\l__iow_current_indentation_int=\count133
 L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
-\c_zero_dim=\dimen135
-\c_max_dim=\dimen136
-\l_tmpa_dim=\dimen137
-\l_tmpb_dim=\dimen138
-\g_tmpa_dim=\dimen139
-\g_tmpb_dim=\dimen140
+\c_zero_dim=\dimen142
+\c_max_dim=\dimen143
+\l_tmpa_dim=\dimen144
+\l_tmpb_dim=\dimen145
+\g_tmpa_dim=\dimen146
+\g_tmpb_dim=\dimen147
 \c_zero_skip=\skip90
 \c_max_skip=\skip91
 \l_tmpa_skip=\skip92
@@ -364,17 +384,17 @@ L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
 L3 Module: l3keys 2016/09/21 v6711 L3 Key-value interfaces
-\l_keys_choice_int=\count133
+\l_keys_choice_int=\count134
 L3 Module: l3fp 2016/11/21 v6761 L3 Floating points
-\c__fp_leading_shift_int=\count134
-\c__fp_middle_shift_int=\count135
-\c__fp_trailing_shift_int=\count136
-\c__fp_big_leading_shift_int=\count137
-\c__fp_big_middle_shift_int=\count138
-\c__fp_big_trailing_shift_int=\count139
-\c__fp_Bigg_leading_shift_int=\count140
-\c__fp_Bigg_middle_shift_int=\count141
-\c__fp_Bigg_trailing_shift_int=\count142
+\c__fp_leading_shift_int=\count135
+\c__fp_middle_shift_int=\count136
+\c__fp_trailing_shift_int=\count137
+\c__fp_big_leading_shift_int=\count138
+\c__fp_big_middle_shift_int=\count139
+\c__fp_big_trailing_shift_int=\count140
+\c__fp_Bigg_leading_shift_int=\count141
+\c__fp_Bigg_middle_shift_int=\count142
+\c__fp_Bigg_trailing_shift_int=\count143
 L3 Module: l3box 2016/08/19 v6685 L3 Experimental boxes
 \c_empty_box=\box40
 \l_tmpa_box=\box41
@@ -383,13 +403,13 @@ L3 Module: l3box 2016/08/19 v6685 L3 Experimental boxes
 \g_tmpb_box=\box44
 L3 Module: l3coffins 2016/08/19 v6685 L3 Coffin code layer
 \l__coffin_internal_box=\box45
-\l__coffin_internal_dim=\dimen141
-\l__coffin_offset_x_dim=\dimen142
-\l__coffin_offset_y_dim=\dimen143
-\l__coffin_x_dim=\dimen144
-\l__coffin_y_dim=\dimen145
-\l__coffin_x_prime_dim=\dimen146
-\l__coffin_y_prime_dim=\dimen147
+\l__coffin_internal_dim=\dimen148
+\l__coffin_offset_x_dim=\dimen149
+\l__coffin_offset_y_dim=\dimen150
+\l__coffin_x_dim=\dimen151
+\l__coffin_y_dim=\dimen152
+\l__coffin_x_prime_dim=\dimen153
+\l__coffin_y_prime_dim=\dimen154
 \c_empty_coffin=\box46
 \l__coffin_aligned_coffin=\box47
 \l__coffin_aligned_internal_coffin=\box48
@@ -398,28 +418,28 @@ L3 Module: l3coffins 2016/08/19 v6685 L3 Coffin code layer
 \l__coffin_display_coffin=\box51
 \l__coffin_display_coord_coffin=\box52
 \l__coffin_display_pole_coffin=\box53
-\l__coffin_display_offset_dim=\dimen148
-\l__coffin_display_x_dim=\dimen149
-\l__coffin_display_y_dim=\dimen150
+\l__coffin_display_offset_dim=\dimen155
+\l__coffin_display_x_dim=\dimen156
+\l__coffin_display_y_dim=\dimen157
 L3 Module: l3color 2016/06/13 v6596 L3 Experimental color support
 L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
 L3 Module: l3candidates 2016/08/19 v6688 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen151
-\l__box_bottom_dim=\dimen152
-\l__box_left_dim=\dimen153
-\l__box_right_dim=\dimen154
-\l__box_top_new_dim=\dimen155
-\l__box_bottom_new_dim=\dimen156
-\l__box_left_new_dim=\dimen157
-\l__box_right_new_dim=\dimen158
+\l__box_top_dim=\dimen158
+\l__box_bottom_dim=\dimen159
+\l__box_left_dim=\dimen160
+\l__box_right_dim=\dimen161
+\l__box_top_new_dim=\dimen162
+\l__box_bottom_new_dim=\dimen163
+\l__box_left_new_dim=\dimen164
+\l__box_right_new_dim=\dimen165
 \l__box_internal_box=\box54
-\l__coffin_bounding_shift_dim=\dimen159
-\l__coffin_left_corner_dim=\dimen160
-\l__coffin_right_corner_dim=\dimen161
-\l__coffin_bottom_corner_dim=\dimen162
-\l__coffin_top_corner_dim=\dimen163
-\l__coffin_scaled_total_height_dim=\dimen164
-\l__coffin_scaled_width_dim=\dimen165
+\l__coffin_bounding_shift_dim=\dimen166
+\l__coffin_left_corner_dim=\dimen167
+\l__coffin_right_corner_dim=\dimen168
+\l__coffin_bottom_corner_dim=\dimen169
+\l__coffin_top_corner_dim=\dimen170
+\l__coffin_scaled_total_height_dim=\dimen171
+\l__coffin_scaled_width_dim=\dimen172
 L3 Module: l3luatex 2016/08/18 v6679 L3 Experimental LuaTeX-specific functions
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3xdvipdfmx.def"
@@ -428,22 +448,22 @@ File: l3xdvidpfmx.def 2016/08/18 v6679 L3 Experimental driver: xdvipdfmx
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
 Package: xparse 2016/11/21 v6760 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count143
-\l__xparse_m_args_int=\count144
-\l__xparse_mandatory_args_int=\count145
-\l__xparse_processor_int=\count146
-\l__xparse_v_nesting_int=\count147
+\l__xparse_current_arg_int=\count144
+\l__xparse_m_args_int=\count145
+\l__xparse_mandatory_args_int=\count146
+\l__xparse_processor_int=\count147
+\l__xparse_v_nesting_int=\count148
 )
 Package: fontspec 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec-xetex.sty"
 Package: fontspec-xetex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTeX
-\l_fontspec_script_int=\count148
-\l_fontspec_language_int=\count149
-\l_fontspec_strnum_int=\count150
-\l__fontspec_tmpa_dim=\dimen166
-\l__fontspec_tmpb_dim=\dimen167
-\l__fontspec_tmpc_dim=\dimen168
+\l_fontspec_script_int=\count149
+\l_fontspec_language_int=\count150
+\l_fontspec_strnum_int=\count151
+\l__fontspec_tmpa_dim=\dimen173
+\l__fontspec_tmpb_dim=\dimen174
+\l__fontspec_tmpc_dim=\dimen175
 \g__file_internal_ior=\read1
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
@@ -465,7 +485,7 @@ LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmss.fd"
 File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-\tipaTiiicode=\count151
+\tipaTiiicode=\count152
 \tipasavetokens=\toks22
 \tipachecktokens=\toks23
 )
@@ -574,15 +594,15 @@ File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 . 
 . Defining command \DeclareFontsExtensions with sig. 'm' on line 599.
 .................................................
-\l__fontspec_tmp_int=\count152
+\l__fontspec_tmp_int=\count153
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec.cfg")
 LaTeX Info: Redefining \itshape on input line 2705.
 LaTeX Info: Redefining \slshape on input line 2710.
 LaTeX Info: Redefining \scshape on input line 2715.
 LaTeX Info: Redefining \upshape on input line 2720.
-\l__fontspec_em_int=\count153
-\l__fontspec_emdef_int=\count154
+\l__fontspec_em_int=\count154
+\l__fontspec_emdef_int=\count155
 LaTeX Info: Redefining \em on input line 2736.
 LaTeX Info: Redefining \emph on input line 2742.
 LaTeX Info: Redefining \- on input line 2746.
@@ -602,7 +622,7 @@ Package: polyglossia 2015/03/25 v1.42.4 Alternative to Babel for XeLaTeX and Lua
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count155
+\etb@tempcnta=\count156
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\makecmds\makecmds.sty"
 Package: makecmds 2009/09/03 v1.0a extra command making commands
@@ -615,7 +635,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks24
 \XKV@tempa@toks=\toks25
 )
-\XKV@depth=\count156
+\XKV@depth=\count157
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
@@ -629,7 +649,7 @@ Package ifluatex Info: LuaTeX not detected.
 . 
 . Font Kalpurush.ttf does not contain any OpenType `Script' information.
 .................................................
-\g__fontspec_family_Kalpurush.ttf_int=\count157
+\g__fontspec_family_Kalpurush.ttf_int=\count158
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -640,38 +660,38 @@ Package ifluatex Info: LuaTeX not detected.
 . - 'normal' (m/n) with NFSS spec.: <->"[Kalpurush]/OT:"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-\c@definition=\count158
-\c@mypro=\count159
-\c@proposition=\count160
-\c@proof=\count161
-\c@corollary=\count162
-\c@theorem=\count163
-\c@lemma=\count164
- (Main.aux (Cover.aux) (InnerCover.aux) (TitlePage.aux) (approval.aux) (Dedication.aux) (Acknowledgment.aux) (Abstract.a
-ux) (Chapter1.aux) (Chapter2.aux) (Chapter3.aux)
-(Chapter4.aux) (Experiment.aux) (Ch-Conclusions.aux))
+\c@definition=\count159
+\c@mypro=\count160
+\c@proposition=\count161
+\c@proof=\count162
+\c@corollary=\count163
+\c@theorem=\count164
+\c@lemma=\count165
+ (Main.aux (Acknowledgment.aux) (Abstract.aux)
+(Chapter1.aux) (Chapter2.aux) (Chapter3.aux) (Chapter4.aux) (Experiment.aux) (Ch-Conclusions.aux))
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 119.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 119.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\tipa\t3cmr.fd"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 122.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 122.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
 
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -707,6 +727,8 @@ LaTeX Font Info:    ... okay on input line 119.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -714,56 +736,56 @@ LaTeX Font Info:    ... okay on input line 119.
 .................................................
 \symlegacymaths=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 119.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 119.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 119.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 119.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 119.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 119.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 119.
-LaTeX Font Info:    Redeclaring math accent \check on input line 119.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 119.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 119.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 119.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 119.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 119.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 119.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 119.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 119.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 119.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 119.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 119.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 119.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 119.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 119.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 119.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 119.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 122.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 122.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 122.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 122.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 122.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 122.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 122.
+LaTeX Font Info:    Redeclaring math accent \check on input line 122.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 122.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 122.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 122.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 122.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 119.
+(Font)              `operators' in the math version `normal' on input line 122.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU1/lmr/m/n on input line 119.
+(Font)                  OT1/cmr/m/n --> EU1/lmr/m/n on input line 122.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 119.
+(Font)              `operators' in the math version `bold' on input line 122.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU1/lmr/m/n on input line 119.
+(Font)                  OT1/cmr/bx/n --> EU1/lmr/m/n on input line 122.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 119.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU1/lmr/m/it on input line 119.
+(Font)                  OT1/cmr/m/it --> EU1/lmr/m/it on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU1/lmr/bx/n on input line 119.
+(Font)                  OT1/cmr/bx/n --> EU1/lmr/bx/n on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 119.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 119.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 122.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 119.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> EU1/lmr/bx/it on input line 119.
+(Font)                  OT1/cmr/bx/it --> EU1/lmr/bx/it on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 119.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 119.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 122.
 \openout2 = `Acknowledgment.aux'.
 
 (Acknowledgment.tex) [1
@@ -773,7 +795,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 ]
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 143.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 146.
 
 \openout2 = `Abstract.aux'.
 
@@ -832,7 +854,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 186.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 189.
 
 \openout2 = `Chapter1.aux'.
 
@@ -969,7 +991,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--137
  []
 
 File: figure/five.eps Graphic file (type eps)
-<figure/five.eps>) [17] [18]
+<figure/five.eps> [17]) [18]
 \openout2 = `Chapter4.aux'.
 
  (Chapter4.tex
@@ -1020,11 +1042,11 @@ Chapter 6.
 
 ]
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 202.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 205.
 
 (Main.bbl)
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 213.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 216.
 
 [30
 
@@ -1036,12 +1058,12 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17794 strings out of 428408
- 324789 string characters out of 3160622
- 367906 words of memory out of 3000000
- 20951 multiletter control sequences out of 15000+200000
+ 18860 strings out of 428408
+ 344208 string characters out of 3160622
+ 386960 words of memory out of 3000000
+ 22024 multiletter control sequences out of 15000+200000
  10046 words of font info for 55 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 39i,16n,55p,10346b,10377s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,16n,79p,10346b,11170s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on Main.pdf (38 pages).

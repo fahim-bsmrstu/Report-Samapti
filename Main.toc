@@ -15,7 +15,7 @@
 \contentsline {section}{\numberline {1.4}Objectives and Specific aims}{3}
 \contentsline {section}{\numberline {1.5}What is NLP \& Document Ranking?}{3}
 \contentsline {subsection}{\numberline {1.5.1}Document Ranking}{3}
-\contentsline {section}{\numberline {1.6}Organization of the Thesis}{4}
+\contentsline {section}{\numberline {1.6}Organization of the Thesis}{3}
 \contentsline {chapter}{\numberline {2}Literature Review}{5}
 \contentsline {section}{\numberline {2.1}Donna Harman,1986}{5}
 \contentsline {subsection}{\numberline {2.1.1}Limitation}{6}
@@ -60,7 +60,7 @@
 \contentsline {section}{\numberline {6.1}Conclusion}{29}
 \contentsline {section}{\numberline {6.2}Future Scopes}{29}
 \fakechapter 
-\contentsline {chapter}{Bibliography}{30}
+\contentsline {chapter}{Reference}{30}
 \ttl@change@i {\@ne }{chapter}{6pc}{\bfseries }{\contentslabel [\appendixname \ \thecontentslabel ]{6pc}}{}{\hfill \contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
 \contentsfinish 
